@@ -120,7 +120,7 @@ public class Main {
 
         int estado = get_string_ref (estados, estado_inicial);
         int estado_anterior = -1;
-        ArrayList<String> palavras_reconhecidas = new ArrayList();
+        ArrayList<String> palavras_reconhecidas = new ArrayList<>();
 
 
         String palavra = "";
@@ -137,7 +137,7 @@ public class Main {
                 // se o estado anterior foi um estado final
                 if (get_string_ref(estados_finais, estados[estado_anterior]) != -1){
                     //se a palavra não é vazia adiciona palavra reconhecida
-                    if ( ! palavra.equals("")){
+                    if (!palavra.isEmpty()){
                         palavras_reconhecidas.add(palavra);
                     }
                     // se ao analisar este caracter não houve transição
