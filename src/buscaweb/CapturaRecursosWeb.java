@@ -12,6 +12,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 
 /**
+ *
  * @author Santiago
  */
 public class CapturaRecursosWeb {
