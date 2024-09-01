@@ -50,6 +50,8 @@ public class Main {
 		//instancia e usa objeto que captura código-fonte de páginas Web
 		var crw = new CapturaRecursosWeb();
 		crw.getListaRecursos().add("https://www.goodreads.com/book/show/7157310-rot-ruin");
+//		crw.getListaRecursos().add("https://loja.literarebooks.com.br/ficcao/o-sequestro-de-ariana");
+//		crw.getListaRecursos().add("https://www.darksidebooks.com.br/bruxaria-silvestre--brinde-exclusivo/p");
 		var listaCodigos = crw.carregarRecursos();
 
 		String codigoHTML = listaCodigos.get(0);
